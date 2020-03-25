@@ -10,4 +10,5 @@ Open the Rails console `rails c`
 Try
 
 `e = Elevator.new`
+
 `e.send_sms`
