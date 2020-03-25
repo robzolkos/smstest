@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+1. Close the repository
+2. Bundle
+3. `rails db:create`
+4. `rails db:migrate`
 
-Things you may want to cover:
+Open the Rails console `rails c`
 
-* Ruby version
+Try
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+`e = Elevator.new`
+`e.send_sms`
